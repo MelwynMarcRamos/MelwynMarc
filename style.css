@@ -23,6 +23,12 @@
     list-style: none;
     box-sizing: border-box;
 }
+nav{
+    background: #fff;
+    height: 75px;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
 label.logo{
     color: black;
     font-size: 30px;
@@ -30,13 +36,6 @@ label.logo{
     padding: 0 100px;
     font-weight: bold;
     float: left;
-nav{
-    background: #fff;
-    height: 75px;
-    width: 100%;
-    border-bottom: 3px solid black;
-}
-
 }
 nav ul{
     float: right;
