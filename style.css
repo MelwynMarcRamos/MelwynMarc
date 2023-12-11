@@ -23,6 +23,13 @@
     list-style: none;
     box-sizing: border-box;
 }
+label.logo{
+    color: black;
+    font-size: 30px;
+    line-height: 75px;
+    padding: 0 100px;
+    font-weight: bold;
+    float: left;
 nav{
     background: #fff;
     height: 75px;
