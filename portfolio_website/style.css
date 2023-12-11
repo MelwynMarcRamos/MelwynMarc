@@ -1,0 +1,247 @@
+.img{
+   height: 340px;
+   width: auto;
+   border-radius: 50%;
+   position: absolute;
+   right: 160px;
+   top: 190px;
+   border: 3px solid black;
+   
+}
+.myname{
+    color: green;
+    position: absolute;
+    left: 240px;
+    bottom: 230px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    background: #fff;
+    height: 75px;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+label.logo{
+    color: black;
+    font-size: 30px;
+    line-height: 75px;
+    padding: 0 100px;
+    font-weight: bold;
+    float: left;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 75px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 17px;
+    padding: 7px 13px;
+}
+a.active,a:hover{
+    background: gray;
+    transition: .4s;
+}
+body{
+    background-image: url(img/background.jpg);
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.article{
+   height: 50%;
+   width: 550px;
+   border: 2px solid #060303;
+   padding: 10px;
+}
+.article{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+
+}
+.p1{
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    font-weight: bolder;
+    font-size: larger;
+    width: 600px;
+}
+.p2{
+    position: absolute;
+    top: 270px;
+    right: 100px;
+    margin-bottom: 10px;
+    width: 600px;
+    text-align: left;
+}
+.B{
+    position: absolute;
+    top: 140px;
+    left: 200px;
+}
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto; 
+  }
+  .pictures img {
+    max-width: 600px; 
+    width: 400px;
+    height: auto; 
+    margin: 10px;
+    margin-left: 20px; 
+    border: 2px solid #1c1c1c;
+    border-radius: 8px; 
+    transition: transform 0.2s ease-in-out;
+  }
+  .pictures img:hover {
+    transform: translateX(250px);
+  }
+.fb {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+.no{
+    position: absolute;
+    top: 250px;
+    right: 390px;
+    border: 2px solid #060303;
+    padding: 10px;
+    list-style: none;
+    margin-bottom: 10px;
+    width: 500px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.gmail{
+    position: absolute;
+    top: 350px;
+    right: 390px;
+    border: 2px solid #060303;
+    padding: 10px;
+    list-style: none;
+    margin-bottom: 10px;
+    width: 500px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.fb{
+    position: absolute;
+    top: 450px;
+    right: 390px;
+    border: 2px solid #060303;
+    padding: 10px;
+    list-style: none;
+    margin-bottom: 10px;
+    width: 500px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.facebooklogo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    height: 40px;
+    
+}
+.mail{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    border-radius: 50%;
+    height: 45px;
+}
+.phone{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    height: 40px;
+}
+.Contact{
+   position: absolute;
+   top: 150px;
+   right: 515px;
+   text-decoration: underline;
+   font-size: larger;
+}
+.hi{
+    position: absolute;
+    left: 150px;
+    bottom: 280px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.im{
+    position: absolute;
+    left: 150px;
+    bottom: 230px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.bsit{
+    position: absolute;
+    left: 150px;
+    bottom: 210px;
+    font-weight: bold;   
+}
+.pic{
+    position: absolute;
+    left: 250px;
+    top: 200px;
+    max-width: 300px;
+    width: 300px;
+    box-sizing: border-box;
+    box-shadow: #060303;
+    margin: 0;
+}
+.abouttitle{
+    position: absolute;
+    top: 130px;
+    left: 500px;
+    font-size: xxx-large;
+}
+.about{
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    text-align: left;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.ref{
+    position: absolute;
+    top: 490px;
+    left: 600px;
+    text-decoration: underline;
+    color: #3e30ff;
+}
+.pic{
+    border: 3px solid black;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
